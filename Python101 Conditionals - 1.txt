@@ -1,0 +1,17 @@
+Conditionals -1:
+
+    "if/elseif/else" Blocks:
+        - Logical operators doesn't change their argument's value
+        - when creating an "if" block you also have to add the indentation in order to make the block of code work
+        - blocks of code can be nested together as long as you put the indentation correctly
+        - if the expression meets none of the conditions then "else" block gets into the action
+        - only one of the conditional blocks gets executed unless there is another "if" block
+        - "elif" block doesn't get executed if one of the upper blocks of code executed(same with "else" block)
+        - you don't always have to put "else" block after other conditional blocks
+
+    The "try/except" Structure:
+        - with this you can prevent your code from getting stopped by an error(Traceback) and it keeps going until end of the code line 
+        - "try" block runs when no traceback occurs, "except" block runs when there is a traceback happens
+        - in "try" block you should put the code you want to run
+        - in "except" block there should be kind of a code in case an error(Traceback) happens
+
