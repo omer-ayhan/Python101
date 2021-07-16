@@ -22,3 +22,5 @@ Expressions-2:
         - we can instruct Python to pause and read data from the user input using "input()" keyword
         - the data taken from user input returned as string by default(you can convert that with certain keywords)
         - when you use "print()" keyword every comma between string elements adds a space to the output
+
+        
