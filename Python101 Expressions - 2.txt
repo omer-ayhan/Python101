@@ -1,0 +1,8 @@
+Expressions-2:
+    Operator precedence:
+        -Highest precedence to the lowest=>
+            1- Parentheses
+            2- Exponention
+            3- Multiplication, Division and Remainder
+            4- Addition and Subtraction
+            5- Left to Right
