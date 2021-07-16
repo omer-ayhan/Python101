@@ -23,4 +23,6 @@ Expressions-2:
         - the data taken from user input returned as string by default(you can convert that with certain keywords)
         - when you use "print()" keyword every comma between string elements adds a space to the output
 
-        
+    Comments:
+        - Comments are important because they give you a chance to explain your code without interfering your code (which is important for debugging the code) 
+        - You can use '#' to add a comment line
