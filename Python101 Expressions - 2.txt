@@ -1,4 +1,5 @@
 Expressions-2:
+
     Operator precedence:
         -Highest precedence to the lowest=>
             1- Parentheses
@@ -6,3 +7,18 @@ Expressions-2:
             3- Multiplication, Division and Remainder
             4- Addition and Subtraction
             5- Left to Right
+
+    Types in Python:
+        - When Python evaluating expressions it is not only looking for the value but also the type
+        - if you try to use unsuitable types together then Python will give you what's called "TypeError" exception
+        - you can learn type of the constant by using "type(your constant)" keyword
+        - floating points(e.g. 1.2) have more range but they are less precise. In integers this is opposite.
+        Type Conversion:    
+            - when you add up an integer with a floating point you forcibly convert the result to a floating point
+            - you can manipulate types by using certain keywords(e.g. float() or int())
+            - you can convert a string to an integer or floating point as long as it written as digits
+    
+    User Input:
+        - we can instruct Python to pause and read data from the user input using "input()" keyword
+        - the data taken from user input returned as string by default(you can convert that with certain keywords)
+        - when you use "print()" keyword every comma between string elements adds a space to the output
