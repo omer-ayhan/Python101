@@ -6,7 +6,7 @@
         - Reserved words(cannot be used as variable names)
         - variables(allocates memory for your variable)
 
-    Variable naming rules:
+    Variable Naming Rules:
         - must start with a letter or underscore
         - cannot consist characters other than letters, numbers or some exceptional symbols
         - python is a case sensitive language(which means you cannot change any character of the variable name)
