@@ -1,6 +1,0 @@
-Hafta 2'ye geçiş yapıdı ve fonksiyonlar kısmı bitirildi(%39 ilerleme)
-Yeni notlar eklendi(https://github.com/omer-ayhan/Python101)
-Almanca alıştırma yapıldı
-Github eğitimlerine başlandı
-Jupyter notebook eğitimlerine başlandı
-Bu checklist için her satıra :white_check_mark: yazacak loop fonksiyonu yazıldı
