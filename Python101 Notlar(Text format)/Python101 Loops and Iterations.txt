@@ -1,0 +1,23 @@
+Loops and Iterations:
+    - Loops are basically a repeating process that keeps going until given conditions are met
+    - if the condition of the loop statys true all the time then the loop will go forever. Which is called "Infinite loop"
+    - if a loop's condition is false from start hence it doesn't let the loop to execute. Then it is called "zero trip loop"
+    "break" statement:
+        - whenever this statement gets executed inside a loop it stops the loop and jumps out of it
+    
+    "continue" statement:
+        - this statement skips the current value(doesn't return it) and goes to next iteration in loop but it doesn't stop the execution of that loop
+    
+    "for" loops:
+        - a simple way to create indefinite(iterating through a collection of values) loops
+        - you have to use an iterable value(string, list, etc.) in order to execute the loop
+        - body of the loop executed once for each value
+        - the iteration variable passes through all of the values in the iterable collection
+    "is" operator:
+        - a logical operator similar to "==" operator but stronger.
+
+    "is not" operator:
+        - Similar to "is" except it can be used instead of "!=" operator
+
+    - you shouldn't be using "is" when you are using "==" because it has stronger precedence you might have some issues. Also similar thing applies to "is not"
+    - "is"/"is not" usually used for True, False or None conditional expressions 

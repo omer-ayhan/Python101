@@ -1,4 +1,4 @@
-file = open("checklist.txt", "r")
+file = open("Kişisel Projelerim/checklist.txt", "r")
 file_list = file.readlines()
 
 file.close()

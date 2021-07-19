@@ -1,7 +1,8 @@
-Functions - 1
-    - functions lets us store a code and reuse it again whenever we need it
+Functions:
+    - functions let us store a code and reuse it again whenever we need it
     - "def" keyword:
         - basically it is used to create functions
+        
     - variables inside functions are local which means whenever you declare a variable inside a function you can't call that variable outside of the function 
     - functions can be called as "function_name()". And you shouldn't forget that if you want call a function you have to add parentheses at the end of the function's name otherwise you will just return the code inside the function
     - when a function call started code process pauses for a brief moment until the function returns a value to use it in the process

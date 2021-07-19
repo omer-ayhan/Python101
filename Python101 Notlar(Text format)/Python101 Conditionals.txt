@@ -1,4 +1,4 @@
-Conditionals -1:
+Conditionals:
 
     "if/elseif/else" Blocks:
         - Logical operators doesn't change their argument's value
