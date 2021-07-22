@@ -6,7 +6,7 @@ Expressions-2:
             2- Exponention
             3- Multiplication, Division and Remainder
             4- Addition and Subtraction
-            5- Left to Right
+            5- Left to Right side
 
     Types in Python:
         - When Python evaluating expressions it is not only looking for the value but also the type

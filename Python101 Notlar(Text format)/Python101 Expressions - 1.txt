@@ -3,7 +3,7 @@
  Expressions:
     Constants:
         - Fixed values(strings, numbers, letters, etc.)
-        - Reserved words(cannot be used as variable names)
+        - Reserved words(which cannot be used as variable names)
         - variables(allocates memory for your variable)
 
     Variable Naming Rules:
