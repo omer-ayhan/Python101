@@ -2,6 +2,7 @@ Loops and Iterations:
     - Loops are basically a repeating process that keeps going until given conditions are met
     - if the condition of the loop statys true all the time then the loop will go forever. Which is called "Infinite loop"
     - if a loop's condition is false from start hence it doesn't let the loop to execute. Then it is called "zero trip loop"
+    - you can loop strings by iterating through each letters 
     "break" statement:
         - whenever this statement gets executed inside a loop it stops the loop and jumps out of it
     

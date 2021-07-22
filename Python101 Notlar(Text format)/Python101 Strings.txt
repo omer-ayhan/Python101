@@ -1,0 +1,14 @@
+Strings:
+    - strings can be concatinated with each other
+    - you can use some of the logical operators on strings(e.g. "==",">","<")
+    "in" keyword:
+        - even though it can often be seen in for loops it also has other uses. For example; you can check if a string can be found inside another string(same thing for lists)
+    
+    - strings have many methods that you can do lots of things with them. You can see all of the methods by writing "dir(any string)" or you can look in documentation
+    - you can use ".capitalize()" method for capitalizing first letters
+    - ".find(string)" method gives the index number of found letter(returns the index of first one it found even though there is another of it later)  
+    - ".replace(old string, new string)" can be used to replace current string/strings to a new one you specified 
+    - ".strip()" removes whitespaces in string from beginning and ending
+    - ".lstrip()" removes whitespaces only from beginning 
+    - ".rstrip()" removes whitespaces only from ending
+    - ".startswith(specified string)" returns True or False depending on desired line starts with specified string 
