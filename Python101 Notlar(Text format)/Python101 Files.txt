@@ -1,0 +1,16 @@
+Files:
+    - this kind of process gets saved into secondary memory(permanent)
+    - before you want to work with a file first of all you have to use "open(filename, mode)" keyword
+    "open(filename,mode)" keyword:   
+        - "open(filename, mode)" makes file available to perform operations on it(just like open option in a text editor)
+        - you can choose various file modes when you open a file
+        - in "open(filename,mode)" if you leave mode argument empty then it's gonna put it into read mode
+        - after you assigned "open(filename,mode)" keyword it doesn't return data instead it returns a way to interact with the data(like sockets)
+
+    - you can get a newline by writing "\n" to where you want it
+    - "\n" is one character not two
+    - "print()" function adds a newline after it gets done but there are several ways to prevent that
+    - opened files in "for" loops treated as sequences of lines. That means the loop is gonna iterate for each line in that file
+    - you can read the whole file by using ".read()" method
+    - with ".startswith()" method you can throw away useless strings in your file while looping through file
+    - if you don't want to keep the code running when an traceback happens. You can use "quit()" function to stop the sequence of the code. Also it is recommended to usually use it inside "except" block when using "try/except" blocks 

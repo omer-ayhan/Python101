@@ -1,6 +1,7 @@
 file = open("Kişisel Projelerim/checklist.txt", "r")
-file_list = file.readlines()
+# file_list = file.readlines()
 
-file.close()
-for line in file_list:
+for line in file:
         print(":white_check_mark:" , line)
+        
+file.close()
