@@ -1,0 +1,18 @@
+Lists:
+    - a kind of collection that lets us to assign more than one value to single variable
+    - "x=4" this is not a collection
+    - List constants are surrounded by square brackets and the elements inside are seperated by commas 
+    - you can have different types of data in a list(even a list can be inside of another list)
+    - your list doesn't have to include any value which makes empty lists possible 
+    - lists can be used in loops. When loop starts it is gonna iterate until iteration reaches the length of the list 
+    - elements inside a list can be called as "listname[index]"
+    - even though strings have similarities to lists you can't reassign any part of that string
+    "len(listname)" function:
+        - to learn length of a list you can use "len(listname)" function that returns number of elements inside list as an integer value(this also can be used for strings)
+
+    "range(start value, stop value, increment/decrement value)" function:
+        - "range()" function is a good use for using in loops
+        - creates a list up to but without including stop value
+        - if you don't specify a start value it will start from '0'
+        - you can also specifiy an increment/decrement value to control how values will be incremented or decremented 
+        - It is useful to use 'range()' function for counting loops
