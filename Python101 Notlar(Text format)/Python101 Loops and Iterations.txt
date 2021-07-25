@@ -5,6 +5,7 @@ Loops and Iterations:
     - you can loop strings by iterating through each letters 
     "break" statement:
         - whenever this statement gets executed inside a loop it stops the loop and jumps out of it
+        - code lines after "break" statement won't work
     
     "continue" statement:
         - this statement skips the current value(doesn't return it) and goes to next iteration in loop but it doesn't stop the execution of that loop
@@ -15,10 +16,12 @@ Loops and Iterations:
         - body of the loop executed once for each value
         - the iteration variable passes through all of the values in the iterable collection
     "is" operator:
-        - a logical operator similar to "==" operator but stronger.
+        - a logical operator similar to "==" operator but with stronger precedence.
+        - the difference between "==" and "is" operator is that "is" operator checks for identity of two assignments(checks if they point to exact same object) while "==" operator checks for equality of variable values
+        - if you try use "is" operator with a literal you'll get a SyntaxWarning
 
     "is not" operator:
         - Similar to "is" except it can be used instead of "!=" operator
 
-    - you shouldn't be using "is" when you are using "==" because it has stronger precedence you might have some issues. Also similar thing applies to "is not"
+    - you shouldn't be using "is" when you are using "==" because they don't have same use cases. Also similar thing applies to "is not"
     - "is"/"is not" usually used for True, False or None conditional expressions 
