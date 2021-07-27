@@ -1,0 +1,7 @@
+Dictionaries:
+    - despite not being same as the lists, it has many features that have great uses
+    - unlike lists a dictionary has to be in key-value pair. This means every value in dictionary has to have a label. This is called "associative array" in most of the programming languages
+    - dictionaries are unordered which makes index numbers useless for them(still kinda can be used) 
+    - if you want to use a value inside dictionary, you have to call it using that value's key name
+    - empty dictionaries can be created by using "dict()" function
+    - you can assign a key and a value to a dictionary even after creating it. And that shows the lists are mutable
