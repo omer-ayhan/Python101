@@ -1,10 +1,13 @@
 def computePay(hrs):
-    if hrs<=40:
-    # pay is 10 TL up to 40 hours
+    if hrs>=0 and hrs<=40:
+    # pay is 10 TL between 0 and 40 hours
         pay = 10
-    else:
+    elif hrs>40:
     # pay is 15 TL if it's more than 40 hours 
         pay = 15
+    else:
+        print("please enter a valid number")
+        quit()
     # computes the brut pay
     return hrs * pay
     

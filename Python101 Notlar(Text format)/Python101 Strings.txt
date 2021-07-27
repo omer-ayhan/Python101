@@ -12,3 +12,4 @@ Strings:
     - ".lstrip()" removes whitespaces only from beginning 
     - ".rstrip()" removes whitespaces only from ending
     - ".startswith(specified string)" returns True or False depending on desired line starts with specified string 
+    - ".split(split value)" as the name suggests it splits the string according to the split value and returns it as a list. Also if you leave split value empty then the split value will be assigned as empty spaces by default

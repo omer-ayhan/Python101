@@ -7,6 +7,8 @@ Lists:
     - lists can be used in loops. When loop starts it is gonna iterate until iteration reaches the length of the list 
     - elements inside a list can be called as "listname[index]"
     - even though strings have similarities to lists you can't reassign any part of that string
+    - lists can be concatinated
+    - just like strings, lists can also be sliced
     "len(listname)" function:
         - to learn length of a list you can use "len(listname)" function that returns number of elements inside list as an integer value(this also can be used for strings)
 
@@ -16,3 +18,29 @@ Lists:
         - if you don't specify a start value it will start from '0'
         - you can also specifiy an increment/decrement value to control how values will be incremented or decremented 
         - It is useful to use 'range()' function for counting loops
+    
+    - lists have many libraries to play with
+
+    "append(specified element)" method:
+        - "append(specified element)" method adds specified element to the end of the list
+        - unlike strings, lists are mutable which means whenever you make change it affects our list variable
+        - you shouldn't save "append" method to any variable because "append" returns "None"
+
+    "in"/"not in" operator:
+        - one of the use cases with these operators is that it lets us to check if a value exist inside intended list
+
+    "sort()" method:
+        - this method can help you to keep your list elements in order whether it is alphabetically or numerically
+    
+    "insert(index, element)" method:
+        - this can be used if you want to add an element at a position you want in the list
+
+    "max()" function:
+        - finds biggest element both numerically and lexicographically
+    
+    "max()" function:
+        - finds smallest element both numerically and lexicographically
+    
+    "sum()" function:
+        - takes sum of numbers in the list. And given list can't include any non numeric value
+    
