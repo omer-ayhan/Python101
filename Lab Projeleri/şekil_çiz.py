@@ -1,5 +1,5 @@
 def draw_shape(shape, count):
-    # hex=count
+    hex=count
     if shape=="1":
         for i in range(count):
             print("* "*(i+1))
@@ -14,10 +14,14 @@ def draw_shape(shape, count):
         col = int(input("sütun sayısını giriniz: "))
         for i in range(count):
             print("* "*col)
-    # elif shape=="5":
-    #     for i in range(count):
-    #         print(("* ".center(count))*hex)
-    #         hex+=2
+    elif shape=="5":
+        for i in range(count):
+            print(" "*hex+"* "*(count+i)+" "*hex)
+            hex-=1
+        for j in range(count,0,-1):
+            print(" "*hex+"* "*(count+j)+" "*hex)
+            hex+=1
+
 print("1-dik üçgen\n2-eşkenar üçgen\n3-kare\n4-dikdörtgen\n5-altıgen\n")
 draw_inp = input("hangi şekli çizmemi istiyorsun : ")
 count_inp = int(input("satır sayısını giriniz : "))
