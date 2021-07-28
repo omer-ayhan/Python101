@@ -4,4 +4,9 @@ Dictionaries:
     - dictionaries are unordered which makes index numbers useless for them(still kinda can be used) 
     - if you want to use a value inside dictionary, you have to call it using that value's key name
     - empty dictionaries can be created by using "dict()" function
-    - you can assign a key and a value to a dictionary even after creating it. And that shows the lists are mutable
+    - you can assign a key and a value to a dictionary even after creating it. And that shows the lists and dictionaries are mutable
+    - in Dictionaries if you lookup something that doesn't exist you will get a traceback
+    - keys inside dictionaries can be checked with "in" keyword
+    "get(keyname, default value)" method:
+        - checks if specified key exists in the dictionary and returns that key's value
+        - when specified key not found it returns the default value

@@ -38,7 +38,7 @@ Lists:
     "max()" function:
         - finds biggest element both numerically and lexicographically
     
-    "max()" function:
+    "min()" function:
         - finds smallest element both numerically and lexicographically
     
     "sum()" function:
