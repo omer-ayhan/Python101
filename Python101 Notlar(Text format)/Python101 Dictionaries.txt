@@ -10,3 +10,10 @@ Dictionaries:
     "get(keyname, default value)" method:
         - checks if specified key exists in the dictionary and returns that key's value
         - when specified key not found it returns the default value
+
+    - When you loop a dictionary it goes through the keys instead of values
+    "dictionary_name.keys()" will give you all the keys in the dictionary
+    - "dictionary_name.values()" will give you all the values in the dictionary
+    "dictionary_name.items()" method:
+         - this will return key-value pairs as tuples inside a list
+         - with this method you can loop through a dictionary with two variables, first representing the key and second representing the value
