@@ -11,7 +11,7 @@ while True:
             # jumps out of the loop
             break
         elif int(num_input):
-            int(num_input)
+            num_input = int(num_input)
             # after converting the number to an integer it gets added to the list
             nums.append(num_input)
             print(nums)
