@@ -1,0 +1,11 @@
+Tuples: 
+    - more efficient version of collection which you can't change its content
+    - tuples are not mutable
+    - you can't do all of the things that you do with other collection types
+    - since tuples are immutable, this makes them simpler and more efficient at the same time
+    - with tuples, you can assign multiple variables or use two variables in a loop
+    - tuples can be compared with other tuples
+    - when comparing tuples if the first pair matches with the condition it will stop looking for others
+    "sorted(list_name, reverse=bool)" function:
+        - helps us to sort a list of tuples
+        - while sorting it takes first element into account
