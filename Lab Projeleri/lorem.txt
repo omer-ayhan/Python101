@@ -1,0 +1,6 @@
+Python programlarinin en buyuk ozelliklerinden birisi, C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan calistirilabilmeleridir. 
+Pythonda derleme islemi ortadan kaldirildigi icin, bu dille oldukca hizli bir sekilde program gelistirilebilir. 
+Ayrica Python programlama dilinin basit ve temiz soz dizimi, onu pek cok programci tarafindan tercih edilen bir dil haline getirmistir. 
+Pythonin soz diziminin temiz ve basit olmasi sayesinde hem program yazmak, hem de baskasi tarafindan yazilmis bir programi okumak, baska dillere kiyasla cok kolaydir. 
+Pythonin yukarida sayilan ozellikleri sayesinde dunya capinda un sahibi buyuk kuruluslar (Google, YouTube ve Yahoo! gibi) bunyelerinde her zaman Python programcilarina ihtiyac duyuyor. 
+Mesela pek cok buyuk sirketin Python bilen programcilara is imkani sagladigini, Pythonin bas gelistiricisi Guido Van Rossumun 2005 ile 2012 yillari arasinda Googleda calistigini,
