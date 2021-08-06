@@ -1,5 +1,5 @@
-def switch_words(str):
-    str_list = str.split(' ')
+def switch_words(string):
+    str_list = string.split(' ')
     # str_list.reverse()
     if len(str_list)>2:
         return "You can't write more than two words"

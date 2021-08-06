@@ -6,7 +6,7 @@ nums = []
 while True:
     try:
         num_input = input("Enter a number: ")
-        if num_input=="Done!":
+        if num_input.lower()=="done!":
             print("Done!")
             # jumps out of the loop
             break
