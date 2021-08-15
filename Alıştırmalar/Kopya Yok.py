@@ -1,6 +1,6 @@
 def remove_duplicates(num_list):
     try:
-        # the reason we return with the 'list()' function because 'set()' function returns its value as an object
+        # the reason we return with the 'list()' function because 'set()' function returns its value as an dictionary
         return list(set(num_list))
     except:
         print("please add a list")

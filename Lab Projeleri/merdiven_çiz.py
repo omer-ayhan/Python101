@@ -1,4 +1,4 @@
-def merdiven(adet,boşluk=1):
+def merdiven(adet,boşluk):
     for i in range(1,adet+1):
         print(" "*(adet-i)+ "#"*i,end="")
         print(' '*boşluk,end="")
