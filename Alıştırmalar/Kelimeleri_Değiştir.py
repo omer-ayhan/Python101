@@ -2,7 +2,7 @@ def switch_words(string):
     str_list = string.split()
     if len(str_list)>2:
         return "You can't write more than two words"
-    else:
+    elif len(str_list)==2:
         return str_list[-1] + ' ' + str_list[-2]
 
 print(switch_words("Golden Bear"))
